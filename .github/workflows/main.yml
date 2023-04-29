@@ -1,0 +1,4 @@
+sudo apt install httrack
+sh extract.sh
+crontab -e
+0 */1 * * * sh ~/scripts/extract.sh
